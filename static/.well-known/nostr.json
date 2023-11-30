@@ -1,0 +1,11 @@
+{
+  "names": {
+    "_": "5e46320e8cb01f15a15674106289f9c9bf2ac0470f06bef0efb165959ea084de"
+  },
+  "relays": {
+    "5e46320e8cb01f15a15674106289f9c9bf2ac0470f06bef0efb165959ea084de": [
+      "wss://relay.yrret.me",
+      "wss://nos.lol"
+    ]
+  }
+}

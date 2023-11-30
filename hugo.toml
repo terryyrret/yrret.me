@@ -1,0 +1,45 @@
+baseURL = "http://yrret.me/"
+defaultContentLanguage = "en"
+languageCode = "en"
+title = "Terry | yrret.me"
+theme = "gokarna"
+enableRobotsTXT = false
+
+[params]
+  avatarURL = "/mamoru.png"
+  description = "Software Engineer, Privacy Advocate, Bitcoiner"
+  dateFormat = "2 January, 2006"
+  footer = '''
+    Terry | GPG Key: 7FEDA50FBF34E607
+  '''
+  customFooterHTML = '''
+    <span>⚡ Zap me at <a href="lightning:zap@yrret.me">zap@yrret.me</a></span>
+  '''
+  socialicons = [
+      {name = "leetcode", url = "https://leetcode.com/yrret"},
+      {name = "github", url = "https://github.com/terryyrret"},
+      {name = "simpleXChat", url = "https://simplex.chat/contact/#/?v=1-4&smp=smp%3A%2F%2FZKe4uxF4Z_aLJJOEsC-Y6hSkXgQS5-oc442JQGkyP8M%3D%40smp17.simplex.im%2F_jc7vdMDcpt8WmncVvcDqyKQeh2Ttovu%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAAVrjAV3SXZvMmkUoyhJXHvPWIQHb68vzlJ3tgiMC0zc%253D%26srv%3Dogtwfxyi3h2h5weftjjpjmxclhb5ugufa5rcyrmg7j4xlch7qsr5nuqd.onion"},
+      {name = "nostr", url = "https://nosta.me/_@yrret.me?t=flowers"},
+      {name = "keyoxide", url = "https://keyoxide.org/A567B6E0DB2A0329B6212EFB7FEDA50FBF34E607"},
+  ]
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    url = "/posts/"
+    pre = ""
+    post = ""
+    name = "Posts"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "github"
+    url = "https://github.com/terryyrret/yrret.me"
+    weight = 3
+    pre = "<span data-feather='code'></span>"
