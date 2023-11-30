@@ -5,7 +5,7 @@
   "relays": {
     "5e46320e8cb01f15a15674106289f9c9bf2ac0470f06bef0efb165959ea084de": [
       "wss://relay.yrret.me",
-      "wss://nos.lol"
+      "wss://filter.nostr.wine/npub1terryr5vkq03tg2kwsgx9z0eexlj4sz8purtau80k9jet84qsn0qvar3w7?broadcast=true"
     ]
   }
 }
